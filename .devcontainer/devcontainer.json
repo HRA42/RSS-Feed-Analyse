@@ -16,14 +16,19 @@
         "github.vscode-github-actions",
         "visualstudioexptteam.vscodeintellicode",
         "github.remotehub",
+        "davidlday.languagetool-linter",
         "visualstudioexptteam.vscodeintellicode-completions",
         "ms-vsliveshare.vsliveshare",
         "bierner.markdown-preview-github-styles",
         "pkief.material-product-icons",
-        "christian-kohler.path-intellisense"
+        "christian-kohler.path-intellisense",
+        "batisteo.vscode-django",
+        "ms-python.python",
+        "donjayamanne.python-environment-manager",
+        "donjayamanne.python-extension-pack"
       ],
       "settings": {
-        "files.autoSave": "onFocusChange",
+        "files.autoSave": "afterDelay",
         "workbench.colorTheme": "Catppuccin Mocha",
         "editor.inlineSuggest.enabled": true,
         "workbench.iconTheme": "catppuccin-mocha",
