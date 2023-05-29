@@ -1,0 +1,35 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "waitFor": "onCreateCommand",
+  "onCreateCommand": "",
+  "postCreateCommand": "",
+  "postAttachCommand": "",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.codespaces",
+        "github.copilot-nightly",
+        "github.copilot-labs",
+        "Catppuccin.catppuccin-vsc-pack",
+        "github.remotehub",
+        "bierner.markdown-preview-github-styles",
+        "github.vscode-github-actions",
+        "visualstudioexptteam.vscodeintellicode",
+        "github.remotehub",
+        "visualstudioexptteam.vscodeintellicode-completions",
+        "ms-vsliveshare.vsliveshare",
+        "bierner.markdown-preview-github-styles",
+        "pkief.material-product-icons",
+        "christian-kohler.path-intellisense"
+      ],
+      "settings": {
+        "files.autoSave": "onFocusChange",
+        "workbench.colorTheme": "Catppuccin Mocha",
+        "editor.inlineSuggest.enabled": true,
+        "workbench.iconTheme": "catppuccin-mocha",
+        "workbench.productIconTheme": "material-product-icons",
+        "security.workspace.trust.untrustedFiles": "open"
+      }
+    }
+  }
+}
