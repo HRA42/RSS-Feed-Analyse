@@ -12,6 +12,9 @@ RUN wget -q -t3 'https://packages.doppler.com/public/cli/rsa.8004D9FF50437357.ke
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Create database directory
+RUN mkdir -p /usr/src/app/database
+
 # Copy app
 COPY . .
 
