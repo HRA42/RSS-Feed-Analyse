@@ -97,3 +97,8 @@ jobs:
         # This step uses the identity token to provision an ephemeral certificate
         # against the sigstore community Fulcio instance.
         run: echo "${{ steps.meta.outputs.tags }}" | xargs -I {} cosign sign {}@${{ steps.build-and-push.outputs.digest }}
+        
+      - name: Delete Untagged
+        uses: camargo/delete-untagged-action@0092392dc55f1ab61e2ff331a6734eb452b67205
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
